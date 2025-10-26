@@ -1,7 +1,7 @@
 [
   {
     "licitacao_id": "PT-2024-001",
-    "data_analise": "2025-10-26T06:02:18.349169",
+    "data_analise": "2025-10-26T10:02:36.591838",
     "score_geral": 85.0,
     "nivel_risco": "Crítico",
     "evidencias": [
@@ -10,10 +10,10 @@
         "descricao": "Empresa ganhou 85.0% das licitações no órgão",
         "score": 85,
         "detalhes": {
-          "empresa": "Server Solutions S.A.",
-          "cnpj": "99.175.736/0001-60",
+          "empresa": "Security Tech LTDA",
+          "cnpj": "89.982.375/0001-68",
           "taxa_vitorias": 0.85,
-          "orgao": "Prefeitura de Belo Horizonte"
+          "orgao": "Ministério da Saúde"
         }
       }
     ],
@@ -27,7 +27,44 @@
   },
   {
     "licitacao_id": "PT-2024-002",
-    "data_analise": "2025-10-26T06:02:18.349272",
+    "data_analise": "2025-10-26T10:02:36.592621",
+    "score_geral": 94.99999999999999,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 284.6% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 4614.930010322382,
+          "preco_mercado": 1200.0,
+          "diferenca_percentual": 284.5775008601985
+        }
+      },
+      {
+        "tipo": "empresa_cartel",
+        "descricao": "Empresa ganhou 85.0% das licitações no órgão",
+        "score": 85,
+        "detalhes": {
+          "empresa": "Inovação Digital S.A.",
+          "cnpj": "69.950.659/0001-48",
+          "taxa_vitorias": 0.85,
+          "orgao": "Ministério da Justiça"
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados",
+      "Investigar histórico da empresa no órgão"
+    ],
+    "confiabilidade": 37.0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
+    "licitacao_id": "PT-2024-003",
+    "data_analise": "2025-10-26T10:02:36.592683",
     "score_geral": 85.0,
     "nivel_risco": "Crítico",
     "evidencias": [
@@ -37,35 +74,9 @@
         "score": 85,
         "detalhes": {
           "empresa": "Projector Solutions",
-          "cnpj": "10.718.684/0001-28",
+          "cnpj": "11.260.271/0001-37",
           "taxa_vitorias": 0.85,
-          "orgao": "Tribunal Superior do Trabalho"
-        }
-      }
-    ],
-    "recomendacoes": [
-      "URGENTE: Investigação imediata recomendada",
-      "Solicitar auditoria externa",
-      "Investigar histórico da empresa no órgão"
-    ],
-    "confiabilidade": 17.0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-003",
-    "data_analise": "2025-10-26T06:02:18.349351",
-    "score_geral": 85.0,
-    "nivel_risco": "Crítico",
-    "evidencias": [
-      {
-        "tipo": "empresa_cartel",
-        "descricao": "Empresa ganhou 85.0% das licitações no órgão",
-        "score": 85,
-        "detalhes": {
-          "empresa": "TechBridge Solutions",
-          "cnpj": "22.290.444/0001-93",
-          "taxa_vitorias": 0.85,
-          "orgao": "Governo do Estado da Bahia"
+          "orgao": "Prefeitura de Salvador"
         }
       }
     ],
@@ -79,7 +90,7 @@
   },
   {
     "licitacao_id": "PT-2024-004",
-    "data_analise": "2025-10-26T06:02:18.349404",
+    "data_analise": "2025-10-26T10:02:36.592744",
     "score_geral": 85.0,
     "nivel_risco": "Crítico",
     "evidencias": [
@@ -88,10 +99,10 @@
         "descricao": "Empresa ganhou 85.0% das licitações no órgão",
         "score": 85,
         "detalhes": {
-          "empresa": "Innovation Hub LTDA",
-          "cnpj": "75.905.883/0001-80",
+          "empresa": "Tech Solutions LTDA",
+          "cnpj": "68.157.956/0001-45",
           "taxa_vitorias": 0.85,
-          "orgao": "Prefeitura de Fortaleza"
+          "orgao": "Governo do Estado de São Paulo"
         }
       }
     ],
@@ -105,7 +116,7 @@
   },
   {
     "licitacao_id": "PT-2024-005",
-    "data_analise": "2025-10-26T06:02:18.349428",
+    "data_analise": "2025-10-26T10:02:36.592780",
     "score_geral": 85.0,
     "nivel_risco": "Crítico",
     "evidencias": [
@@ -114,8 +125,8 @@
         "descricao": "Empresa ganhou 85.0% das licitações no órgão",
         "score": 85,
         "detalhes": {
-          "empresa": "IT Solutions Group",
-          "cnpj": "83.239.423/0001-40",
+          "empresa": "Innovation Hub LTDA",
+          "cnpj": "68.525.847/0001-68",
           "taxa_vitorias": 0.85,
           "orgao": "Prefeitura de Salvador"
         }
@@ -131,7 +142,7 @@
   },
   {
     "licitacao_id": "PT-2024-006",
-    "data_analise": "2025-10-26T06:02:18.349445",
+    "data_analise": "2025-10-26T10:02:36.592815",
     "score_geral": 85.0,
     "nivel_risco": "Crítico",
     "evidencias": [
@@ -140,10 +151,10 @@
         "descricao": "Empresa ganhou 85.0% das licitações no órgão",
         "score": 85,
         "detalhes": {
-          "empresa": "Security Tech LTDA",
-          "cnpj": "47.631.924/0001-57",
+          "empresa": "Mobile Tech LTDA",
+          "cnpj": "58.971.254/0001-76",
           "taxa_vitorias": 0.85,
-          "orgao": "Tribunal Superior do Trabalho"
+          "orgao": "Ministério da Justiça"
         }
       }
     ],
@@ -157,18 +168,18 @@
   },
   {
     "licitacao_id": "PT-2024-007",
-    "data_analise": "2025-10-26T06:02:18.349464",
+    "data_analise": "2025-10-26T10:02:36.592854",
     "score_geral": 100.0,
     "nivel_risco": "Crítico",
     "evidencias": [
       {
         "tipo": "preco_excessivo",
-        "descricao": "Preço 6333.7% acima do mercado",
+        "descricao": "Preço 257.2% acima do mercado",
         "score": 100,
         "detalhes": {
-          "preco_proposto": 180143.17587599513,
-          "preco_mercado": 2800.0,
-          "diferenca_percentual": 6333.684852714112
+          "preco_proposto": 4285.893670136769,
+          "preco_mercado": 1200.0,
+          "diferenca_percentual": 257.1578058447308
         }
       }
     ],
@@ -182,7 +193,7 @@
   },
   {
     "licitacao_id": "PT-2024-008",
-    "data_analise": "2025-10-26T06:02:18.349476",
+    "data_analise": "2025-10-26T10:02:36.592885",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -192,7 +203,7 @@
   },
   {
     "licitacao_id": "PT-2024-009",
-    "data_analise": "2025-10-26T06:02:18.349497",
+    "data_analise": "2025-10-26T10:02:36.592948",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -202,7 +213,7 @@
   },
   {
     "licitacao_id": "PT-2024-010",
-    "data_analise": "2025-10-26T06:02:18.349510",
+    "data_analise": "2025-10-26T10:02:36.592976",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -212,7 +223,7 @@
   },
   {
     "licitacao_id": "PT-2024-011",
-    "data_analise": "2025-10-26T06:02:18.349524",
+    "data_analise": "2025-10-26T10:02:36.593000",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -222,7 +233,7 @@
   },
   {
     "licitacao_id": "PT-2024-012",
-    "data_analise": "2025-10-26T06:02:18.349540",
+    "data_analise": "2025-10-26T10:02:36.593023",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -232,32 +243,17 @@
   },
   {
     "licitacao_id": "PT-2024-013",
-    "data_analise": "2025-10-26T06:02:18.349561",
-    "score_geral": 100.0,
-    "nivel_risco": "Crítico",
-    "evidencias": [
-      {
-        "tipo": "preco_excessivo",
-        "descricao": "Preço 6195.2% acima do mercado",
-        "score": 100,
-        "detalhes": {
-          "preco_proposto": 176266.62097381995,
-          "preco_mercado": 2800.0,
-          "diferenca_percentual": 6195.236463350712
-        }
-      }
-    ],
-    "recomendacoes": [
-      "URGENTE: Investigação imediata recomendada",
-      "Solicitar auditoria externa",
-      "Verificar preços de mercado atualizados"
-    ],
-    "confiabilidade": 20.0,
+    "data_analise": "2025-10-26T10:02:36.593056",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-014",
-    "data_analise": "2025-10-26T06:02:18.349571",
+    "data_analise": "2025-10-26T10:02:36.593085",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -267,7 +263,7 @@
   },
   {
     "licitacao_id": "PT-2024-015",
-    "data_analise": "2025-10-26T06:02:18.349580",
+    "data_analise": "2025-10-26T10:02:36.593106",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -277,7 +273,7 @@
   },
   {
     "licitacao_id": "PT-2024-016",
-    "data_analise": "2025-10-26T06:02:18.349588",
+    "data_analise": "2025-10-26T10:02:36.593133",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -287,7 +283,7 @@
   },
   {
     "licitacao_id": "PT-2024-017",
-    "data_analise": "2025-10-26T06:02:18.349604",
+    "data_analise": "2025-10-26T10:02:36.593166",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -297,7 +293,7 @@
   },
   {
     "licitacao_id": "PT-2024-018",
-    "data_analise": "2025-10-26T06:02:18.349614",
+    "data_analise": "2025-10-26T10:02:36.593193",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -307,7 +303,7 @@
   },
   {
     "licitacao_id": "PT-2024-019",
-    "data_analise": "2025-10-26T06:02:18.349624",
+    "data_analise": "2025-10-26T10:02:36.593217",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -317,7 +313,7 @@
   },
   {
     "licitacao_id": "PT-2024-020",
-    "data_analise": "2025-10-26T06:02:18.349638",
+    "data_analise": "2025-10-26T10:02:36.593246",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -327,7 +323,7 @@
   },
   {
     "licitacao_id": "PT-2024-021",
-    "data_analise": "2025-10-26T06:02:18.349646",
+    "data_analise": "2025-10-26T10:02:36.593268",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -337,7 +333,7 @@
   },
   {
     "licitacao_id": "PT-2024-022",
-    "data_analise": "2025-10-26T06:02:18.349654",
+    "data_analise": "2025-10-26T10:02:36.593291",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -347,7 +343,7 @@
   },
   {
     "licitacao_id": "PT-2024-023",
-    "data_analise": "2025-10-26T06:02:18.349662",
+    "data_analise": "2025-10-26T10:02:36.593315",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -357,7 +353,7 @@
   },
   {
     "licitacao_id": "PT-2024-024",
-    "data_analise": "2025-10-26T06:02:18.349670",
+    "data_analise": "2025-10-26T10:02:36.593346",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -367,7 +363,7 @@
   },
   {
     "licitacao_id": "PT-2024-025",
-    "data_analise": "2025-10-26T06:02:18.349681",
+    "data_analise": "2025-10-26T10:02:36.593366",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -377,7 +373,7 @@
   },
   {
     "licitacao_id": "PT-2024-026",
-    "data_analise": "2025-10-26T06:02:18.349693",
+    "data_analise": "2025-10-26T10:02:36.593390",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -387,7 +383,7 @@
   },
   {
     "licitacao_id": "PT-2024-027",
-    "data_analise": "2025-10-26T06:02:18.349704",
+    "data_analise": "2025-10-26T10:02:36.593413",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -397,17 +393,32 @@
   },
   {
     "licitacao_id": "PT-2024-028",
-    "data_analise": "2025-10-26T06:02:18.349713",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
+    "data_analise": "2025-10-26T10:02:36.593462",
+    "score_geral": 100.0,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 277.9% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 4534.927620984391,
+          "preco_mercado": 1200.0,
+          "diferenca_percentual": 277.91063508203257
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados"
+    ],
+    "confiabilidade": 20.0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-029",
-    "data_analise": "2025-10-26T06:02:18.349726",
+    "data_analise": "2025-10-26T10:02:36.593485",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -417,7 +428,7 @@
   },
   {
     "licitacao_id": "PT-2024-030",
-    "data_analise": "2025-10-26T06:02:18.349733",
+    "data_analise": "2025-10-26T10:02:36.593516",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -427,7 +438,7 @@
   },
   {
     "licitacao_id": "PT-2024-031",
-    "data_analise": "2025-10-26T06:02:18.349809",
+    "data_analise": "2025-10-26T10:02:36.593586",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -437,7 +448,7 @@
   },
   {
     "licitacao_id": "PT-2024-032",
-    "data_analise": "2025-10-26T06:02:18.349839",
+    "data_analise": "2025-10-26T10:02:36.593615",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -447,7 +458,7 @@
   },
   {
     "licitacao_id": "PT-2024-033",
-    "data_analise": "2025-10-26T06:02:18.349858",
+    "data_analise": "2025-10-26T10:02:36.593635",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -457,7 +468,7 @@
   },
   {
     "licitacao_id": "PT-2024-034",
-    "data_analise": "2025-10-26T06:02:18.349882",
+    "data_analise": "2025-10-26T10:02:36.593656",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -467,7 +478,7 @@
   },
   {
     "licitacao_id": "PT-2024-035",
-    "data_analise": "2025-10-26T06:02:18.349899",
+    "data_analise": "2025-10-26T10:02:36.593679",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -477,7 +488,7 @@
   },
   {
     "licitacao_id": "PT-2024-036",
-    "data_analise": "2025-10-26T06:02:18.349925",
+    "data_analise": "2025-10-26T10:02:36.593698",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -487,7 +498,7 @@
   },
   {
     "licitacao_id": "PT-2024-037",
-    "data_analise": "2025-10-26T06:02:18.349941",
+    "data_analise": "2025-10-26T10:02:36.593718",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -497,32 +508,17 @@
   },
   {
     "licitacao_id": "PT-2024-038",
-    "data_analise": "2025-10-26T06:02:18.349971",
-    "score_geral": 100.0,
-    "nivel_risco": "Crítico",
-    "evidencias": [
-      {
-        "tipo": "preco_excessivo",
-        "descricao": "Preço 268.8% acima do mercado",
-        "score": 100,
-        "detalhes": {
-          "preco_proposto": 4425.115269276084,
-          "preco_mercado": 1200.0,
-          "diferenca_percentual": 268.759605773007
-        }
-      }
-    ],
-    "recomendacoes": [
-      "URGENTE: Investigação imediata recomendada",
-      "Solicitar auditoria externa",
-      "Verificar preços de mercado atualizados"
-    ],
-    "confiabilidade": 20.0,
+    "data_analise": "2025-10-26T10:02:36.593734",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-039",
-    "data_analise": "2025-10-26T06:02:18.349988",
+    "data_analise": "2025-10-26T10:02:36.593750",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -532,7 +528,7 @@
   },
   {
     "licitacao_id": "PT-2024-040",
-    "data_analise": "2025-10-26T06:02:18.350008",
+    "data_analise": "2025-10-26T10:02:36.593767",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -542,7 +538,7 @@
   },
   {
     "licitacao_id": "PT-2024-041",
-    "data_analise": "2025-10-26T06:02:18.350028",
+    "data_analise": "2025-10-26T10:02:36.593784",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -552,7 +548,7 @@
   },
   {
     "licitacao_id": "PT-2024-042",
-    "data_analise": "2025-10-26T06:02:18.350043",
+    "data_analise": "2025-10-26T10:02:36.593812",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -562,7 +558,7 @@
   },
   {
     "licitacao_id": "PT-2024-043",
-    "data_analise": "2025-10-26T06:02:18.350058",
+    "data_analise": "2025-10-26T10:02:36.593828",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -572,7 +568,7 @@
   },
   {
     "licitacao_id": "PT-2024-044",
-    "data_analise": "2025-10-26T06:02:18.350078",
+    "data_analise": "2025-10-26T10:02:36.593852",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -582,7 +578,7 @@
   },
   {
     "licitacao_id": "PT-2024-045",
-    "data_analise": "2025-10-26T06:02:18.350092",
+    "data_analise": "2025-10-26T10:02:36.593873",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -592,7 +588,7 @@
   },
   {
     "licitacao_id": "PT-2024-046",
-    "data_analise": "2025-10-26T06:02:18.350111",
+    "data_analise": "2025-10-26T10:02:36.593889",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -602,7 +598,7 @@
   },
   {
     "licitacao_id": "PT-2024-047",
-    "data_analise": "2025-10-26T06:02:18.350132",
+    "data_analise": "2025-10-26T10:02:36.593936",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -612,7 +608,7 @@
   },
   {
     "licitacao_id": "PT-2024-048",
-    "data_analise": "2025-10-26T06:02:18.350146",
+    "data_analise": "2025-10-26T10:02:36.593958",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -622,7 +618,7 @@
   },
   {
     "licitacao_id": "PT-2024-049",
-    "data_analise": "2025-10-26T06:02:18.350159",
+    "data_analise": "2025-10-26T10:02:36.593976",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -632,7 +628,7 @@
   },
   {
     "licitacao_id": "PT-2024-050",
-    "data_analise": "2025-10-26T06:02:18.350174",
+    "data_analise": "2025-10-26T10:02:36.593998",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -642,7 +638,7 @@
   },
   {
     "licitacao_id": "PT-2024-051",
-    "data_analise": "2025-10-26T06:02:18.350187",
+    "data_analise": "2025-10-26T10:02:36.594013",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -652,32 +648,17 @@
   },
   {
     "licitacao_id": "PT-2024-052",
-    "data_analise": "2025-10-26T06:02:18.350254",
-    "score_geral": 100.0,
-    "nivel_risco": "Crítico",
-    "evidencias": [
-      {
-        "tipo": "preco_excessivo",
-        "descricao": "Preço 280.6% acima do mercado",
-        "score": 100,
-        "detalhes": {
-          "preco_proposto": 4566.976239518585,
-          "preco_mercado": 1200.0,
-          "diferenca_percentual": 280.58135329321544
-        }
-      }
-    ],
-    "recomendacoes": [
-      "URGENTE: Investigação imediata recomendada",
-      "Solicitar auditoria externa",
-      "Verificar preços de mercado atualizados"
-    ],
-    "confiabilidade": 20.0,
+    "data_analise": "2025-10-26T10:02:36.594038",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-053",
-    "data_analise": "2025-10-26T06:02:18.350281",
+    "data_analise": "2025-10-26T10:02:36.594066",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -687,118 +668,18 @@
   },
   {
     "licitacao_id": "PT-2024-054",
-    "data_analise": "2025-10-26T06:02:18.350303",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-055",
-    "data_analise": "2025-10-26T06:02:18.350317",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-056",
-    "data_analise": "2025-10-26T06:02:18.350331",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-057",
-    "data_analise": "2025-10-26T06:02:18.350341",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-058",
-    "data_analise": "2025-10-26T06:02:18.350355",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-059",
-    "data_analise": "2025-10-26T06:02:18.350368",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-060",
-    "data_analise": "2025-10-26T06:02:18.350377",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-061",
-    "data_analise": "2025-10-26T06:02:18.350388",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-062",
-    "data_analise": "2025-10-26T06:02:18.350400",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-063",
-    "data_analise": "2025-10-26T06:02:18.350407",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-064",
-    "data_analise": "2025-10-26T06:02:18.350425",
+    "data_analise": "2025-10-26T10:02:36.594135",
     "score_geral": 100.0,
     "nivel_risco": "Crítico",
     "evidencias": [
       {
         "tipo": "preco_excessivo",
-        "descricao": "Preço 275.8% acima do mercado",
+        "descricao": "Preço 6201.9% acima do mercado",
         "score": 100,
         "detalhes": {
-          "preco_proposto": 4509.580950574406,
-          "preco_mercado": 1200.0,
-          "diferenca_percentual": 275.7984125478672
+          "preco_proposto": 176452.61783583622,
+          "preco_mercado": 2800.0,
+          "diferenca_percentual": 6201.8792084227225
         }
       }
     ],
@@ -811,8 +692,8 @@
     "analista_responsavel": "Sistema IA"
   },
   {
-    "licitacao_id": "PT-2024-065",
-    "data_analise": "2025-10-26T06:02:18.350434",
+    "licitacao_id": "PT-2024-055",
+    "data_analise": "2025-10-26T10:02:36.594167",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -821,8 +702,138 @@
     "analista_responsavel": "Sistema IA"
   },
   {
+    "licitacao_id": "PT-2024-056",
+    "data_analise": "2025-10-26T10:02:36.594187",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
+    "licitacao_id": "PT-2024-057",
+    "data_analise": "2025-10-26T10:02:36.594206",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
+    "licitacao_id": "PT-2024-058",
+    "data_analise": "2025-10-26T10:02:36.594227",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
+    "licitacao_id": "PT-2024-059",
+    "data_analise": "2025-10-26T10:02:36.594288",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
+    "licitacao_id": "PT-2024-060",
+    "data_analise": "2025-10-26T10:02:36.594311",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
+    "licitacao_id": "PT-2024-061",
+    "data_analise": "2025-10-26T10:02:36.594344",
+    "score_geral": 100.0,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 6559.5% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 186465.0520860126,
+          "preco_mercado": 2800.0,
+          "diferenca_percentual": 6559.466145929022
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados"
+    ],
+    "confiabilidade": 20.0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
+    "licitacao_id": "PT-2024-062",
+    "data_analise": "2025-10-26T10:02:36.594368",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
+    "licitacao_id": "PT-2024-063",
+    "data_analise": "2025-10-26T10:02:36.594392",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
+    "licitacao_id": "PT-2024-064",
+    "data_analise": "2025-10-26T10:02:36.594414",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
+    "licitacao_id": "PT-2024-065",
+    "data_analise": "2025-10-26T10:02:36.594446",
+    "score_geral": 100.0,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 265.8% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 4389.711400790384,
+          "preco_mercado": 1200.0,
+          "diferenca_percentual": 265.80928339919865
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados"
+    ],
+    "confiabilidade": 20.0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
     "licitacao_id": "PT-2024-066",
-    "data_analise": "2025-10-26T06:02:18.350444",
+    "data_analise": "2025-10-26T10:02:36.594469",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -832,18 +843,18 @@
   },
   {
     "licitacao_id": "PT-2024-067",
-    "data_analise": "2025-10-26T06:02:18.350458",
+    "data_analise": "2025-10-26T10:02:36.594504",
     "score_geral": 100.0,
     "nivel_risco": "Crítico",
     "evidencias": [
       {
         "tipo": "preco_excessivo",
-        "descricao": "Preço 6598.1% acima do mercado",
+        "descricao": "Preço 283.7% acima do mercado",
         "score": 100,
         "detalhes": {
-          "preco_proposto": 187547.7732224576,
-          "preco_mercado": 2800.0,
-          "diferenca_percentual": 6598.134757944914
+          "preco_proposto": 4604.839078964244,
+          "preco_mercado": 1200.0,
+          "diferenca_percentual": 283.73658991368706
         }
       }
     ],
@@ -857,7 +868,7 @@
   },
   {
     "licitacao_id": "PT-2024-068",
-    "data_analise": "2025-10-26T06:02:18.350472",
+    "data_analise": "2025-10-26T10:02:36.594531",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -867,7 +878,7 @@
   },
   {
     "licitacao_id": "PT-2024-069",
-    "data_analise": "2025-10-26T06:02:18.350485",
+    "data_analise": "2025-10-26T10:02:36.594574",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -877,7 +888,7 @@
   },
   {
     "licitacao_id": "PT-2024-070",
-    "data_analise": "2025-10-26T06:02:18.350493",
+    "data_analise": "2025-10-26T10:02:36.594597",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -887,7 +898,7 @@
   },
   {
     "licitacao_id": "PT-2024-071",
-    "data_analise": "2025-10-26T06:02:18.350504",
+    "data_analise": "2025-10-26T10:02:36.594620",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -897,32 +908,17 @@
   },
   {
     "licitacao_id": "PT-2024-072",
-    "data_analise": "2025-10-26T06:02:18.350516",
-    "score_geral": 100.0,
-    "nivel_risco": "Crítico",
-    "evidencias": [
-      {
-        "tipo": "preco_excessivo",
-        "descricao": "Preço 280.4% acima do mercado",
-        "score": 100,
-        "detalhes": {
-          "preco_proposto": 4565.068683190597,
-          "preco_mercado": 1200.0,
-          "diferenca_percentual": 280.42239026588305
-        }
-      }
-    ],
-    "recomendacoes": [
-      "URGENTE: Investigação imediata recomendada",
-      "Solicitar auditoria externa",
-      "Verificar preços de mercado atualizados"
-    ],
-    "confiabilidade": 20.0,
+    "data_analise": "2025-10-26T10:02:36.594661",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-073",
-    "data_analise": "2025-10-26T06:02:18.350528",
+    "data_analise": "2025-10-26T10:02:36.594692",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -932,7 +928,7 @@
   },
   {
     "licitacao_id": "PT-2024-074",
-    "data_analise": "2025-10-26T06:02:18.350542",
+    "data_analise": "2025-10-26T10:02:36.594723",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -942,7 +938,7 @@
   },
   {
     "licitacao_id": "PT-2024-075",
-    "data_analise": "2025-10-26T06:02:18.350551",
+    "data_analise": "2025-10-26T10:02:36.594745",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -952,32 +948,7 @@
   },
   {
     "licitacao_id": "PT-2024-076",
-    "data_analise": "2025-10-26T06:02:18.350562",
-    "score_geral": 100.0,
-    "nivel_risco": "Crítico",
-    "evidencias": [
-      {
-        "tipo": "preco_excessivo",
-        "descricao": "Preço 6332.1% acima do mercado",
-        "score": 100,
-        "detalhes": {
-          "preco_proposto": 180098.02674077632,
-          "preco_mercado": 2800.0,
-          "diferenca_percentual": 6332.072383599154
-        }
-      }
-    ],
-    "recomendacoes": [
-      "URGENTE: Investigação imediata recomendada",
-      "Solicitar auditoria externa",
-      "Verificar preços de mercado atualizados"
-    ],
-    "confiabilidade": 20.0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-077",
-    "data_analise": "2025-10-26T06:02:18.350571",
+    "data_analise": "2025-10-26T10:02:36.594855",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -986,19 +957,19 @@
     "analista_responsavel": "Sistema IA"
   },
   {
-    "licitacao_id": "PT-2024-078",
-    "data_analise": "2025-10-26T06:02:18.350583",
+    "licitacao_id": "PT-2024-077",
+    "data_analise": "2025-10-26T10:02:36.594940",
     "score_geral": 100.0,
     "nivel_risco": "Crítico",
     "evidencias": [
       {
         "tipo": "preco_excessivo",
-        "descricao": "Preço 6165.7% acima do mercado",
+        "descricao": "Preço 263.1% acima do mercado",
         "score": 100,
         "detalhes": {
-          "preco_proposto": 175438.58732348622,
-          "preco_mercado": 2800.0,
-          "diferenca_percentual": 6165.663832981651
+          "preco_proposto": 4357.6070233938535,
+          "preco_mercado": 1200.0,
+          "diferenca_percentual": 263.13391861615446
         }
       }
     ],
@@ -1011,8 +982,18 @@
     "analista_responsavel": "Sistema IA"
   },
   {
+    "licitacao_id": "PT-2024-078",
+    "data_analise": "2025-10-26T10:02:36.594976",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
     "licitacao_id": "PT-2024-079",
-    "data_analise": "2025-10-26T06:02:18.350594",
+    "data_analise": "2025-10-26T10:02:36.595003",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1022,7 +1003,7 @@
   },
   {
     "licitacao_id": "PT-2024-080",
-    "data_analise": "2025-10-26T06:02:18.350602",
+    "data_analise": "2025-10-26T10:02:36.595025",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1032,7 +1013,7 @@
   },
   {
     "licitacao_id": "PT-2024-081",
-    "data_analise": "2025-10-26T06:02:18.350610",
+    "data_analise": "2025-10-26T10:02:36.595042",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1042,7 +1023,7 @@
   },
   {
     "licitacao_id": "PT-2024-082",
-    "data_analise": "2025-10-26T06:02:18.350619",
+    "data_analise": "2025-10-26T10:02:36.595059",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1052,7 +1033,7 @@
   },
   {
     "licitacao_id": "PT-2024-083",
-    "data_analise": "2025-10-26T06:02:18.350627",
+    "data_analise": "2025-10-26T10:02:36.595079",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1062,7 +1043,7 @@
   },
   {
     "licitacao_id": "PT-2024-084",
-    "data_analise": "2025-10-26T06:02:18.350636",
+    "data_analise": "2025-10-26T10:02:36.595096",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1072,7 +1053,7 @@
   },
   {
     "licitacao_id": "PT-2024-085",
-    "data_analise": "2025-10-26T06:02:18.350646",
+    "data_analise": "2025-10-26T10:02:36.595112",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1082,7 +1063,7 @@
   },
   {
     "licitacao_id": "PT-2024-086",
-    "data_analise": "2025-10-26T06:02:18.350654",
+    "data_analise": "2025-10-26T10:02:36.595127",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1092,7 +1073,7 @@
   },
   {
     "licitacao_id": "PT-2024-087",
-    "data_analise": "2025-10-26T06:02:18.350667",
+    "data_analise": "2025-10-26T10:02:36.595144",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1102,17 +1083,32 @@
   },
   {
     "licitacao_id": "PT-2024-088",
-    "data_analise": "2025-10-26T06:02:18.350674",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
+    "data_analise": "2025-10-26T10:02:36.595176",
+    "score_geral": 100.0,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 6061.1% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 172512.0746057465,
+          "preco_mercado": 2800.0,
+          "diferenca_percentual": 6061.145521633803
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados"
+    ],
+    "confiabilidade": 20.0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-089",
-    "data_analise": "2025-10-26T06:02:18.350682",
+    "data_analise": "2025-10-26T10:02:36.595204",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1122,7 +1118,7 @@
   },
   {
     "licitacao_id": "PT-2024-090",
-    "data_analise": "2025-10-26T06:02:18.350694",
+    "data_analise": "2025-10-26T10:02:36.595229",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1132,17 +1128,32 @@
   },
   {
     "licitacao_id": "PT-2024-091",
-    "data_analise": "2025-10-26T06:02:18.350715",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
+    "data_analise": "2025-10-26T10:02:36.595254",
+    "score_geral": 100.0,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 283.7% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 4604.210576756083,
+          "preco_mercado": 1200.0,
+          "diferenca_percentual": 283.6842147296736
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados"
+    ],
+    "confiabilidade": 20.0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-092",
-    "data_analise": "2025-10-26T06:02:18.350724",
+    "data_analise": "2025-10-26T10:02:36.595273",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1152,7 +1163,7 @@
   },
   {
     "licitacao_id": "PT-2024-093",
-    "data_analise": "2025-10-26T06:02:18.350736",
+    "data_analise": "2025-10-26T10:02:36.595294",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1162,7 +1173,7 @@
   },
   {
     "licitacao_id": "PT-2024-094",
-    "data_analise": "2025-10-26T06:02:18.350747",
+    "data_analise": "2025-10-26T10:02:36.595313",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1172,7 +1183,7 @@
   },
   {
     "licitacao_id": "PT-2024-095",
-    "data_analise": "2025-10-26T06:02:18.350755",
+    "data_analise": "2025-10-26T10:02:36.595335",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1182,7 +1193,7 @@
   },
   {
     "licitacao_id": "PT-2024-096",
-    "data_analise": "2025-10-26T06:02:18.350763",
+    "data_analise": "2025-10-26T10:02:36.595355",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1192,7 +1203,7 @@
   },
   {
     "licitacao_id": "PT-2024-097",
-    "data_analise": "2025-10-26T06:02:18.350771",
+    "data_analise": "2025-10-26T10:02:36.595371",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1202,7 +1213,7 @@
   },
   {
     "licitacao_id": "PT-2024-098",
-    "data_analise": "2025-10-26T06:02:18.350782",
+    "data_analise": "2025-10-26T10:02:36.595387",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1212,32 +1223,17 @@
   },
   {
     "licitacao_id": "PT-2024-099",
-    "data_analise": "2025-10-26T06:02:18.350794",
-    "score_geral": 100.0,
-    "nivel_risco": "Crítico",
-    "evidencias": [
-      {
-        "tipo": "preco_excessivo",
-        "descricao": "Preço 288.9% acima do mercado",
-        "score": 100,
-        "detalhes": {
-          "preco_proposto": 4666.400088147721,
-          "preco_mercado": 1200.0,
-          "diferenca_percentual": 288.8666740123101
-        }
-      }
-    ],
-    "recomendacoes": [
-      "URGENTE: Investigação imediata recomendada",
-      "Solicitar auditoria externa",
-      "Verificar preços de mercado atualizados"
-    ],
-    "confiabilidade": 20.0,
+    "data_analise": "2025-10-26T10:02:36.595403",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-100",
-    "data_analise": "2025-10-26T06:02:18.350802",
+    "data_analise": "2025-10-26T10:02:36.595420",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1247,7 +1243,7 @@
   },
   {
     "licitacao_id": "PT-2024-101",
-    "data_analise": "2025-10-26T06:02:18.350810",
+    "data_analise": "2025-10-26T10:02:36.595436",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1257,7 +1253,7 @@
   },
   {
     "licitacao_id": "PT-2024-102",
-    "data_analise": "2025-10-26T06:02:18.350819",
+    "data_analise": "2025-10-26T10:02:36.595453",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1267,7 +1263,7 @@
   },
   {
     "licitacao_id": "PT-2024-103",
-    "data_analise": "2025-10-26T06:02:18.350830",
+    "data_analise": "2025-10-26T10:02:36.595472",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1277,7 +1273,7 @@
   },
   {
     "licitacao_id": "PT-2024-104",
-    "data_analise": "2025-10-26T06:02:18.350839",
+    "data_analise": "2025-10-26T10:02:36.595489",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1287,32 +1283,17 @@
   },
   {
     "licitacao_id": "PT-2024-105",
-    "data_analise": "2025-10-26T06:02:18.350850",
-    "score_geral": 100.0,
-    "nivel_risco": "Crítico",
-    "evidencias": [
-      {
-        "tipo": "preco_excessivo",
-        "descricao": "Preço 267.1% acima do mercado",
-        "score": 100,
-        "detalhes": {
-          "preco_proposto": 4404.925401635489,
-          "preco_mercado": 1200.0,
-          "diferenca_percentual": 267.0771168029574
-        }
-      }
-    ],
-    "recomendacoes": [
-      "URGENTE: Investigação imediata recomendada",
-      "Solicitar auditoria externa",
-      "Verificar preços de mercado atualizados"
-    ],
-    "confiabilidade": 20.0,
+    "data_analise": "2025-10-26T10:02:36.595506",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-106",
-    "data_analise": "2025-10-26T06:02:18.350858",
+    "data_analise": "2025-10-26T10:02:36.595526",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1322,7 +1303,7 @@
   },
   {
     "licitacao_id": "PT-2024-107",
-    "data_analise": "2025-10-26T06:02:18.350866",
+    "data_analise": "2025-10-26T10:02:36.595543",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1332,7 +1313,7 @@
   },
   {
     "licitacao_id": "PT-2024-108",
-    "data_analise": "2025-10-26T06:02:18.350873",
+    "data_analise": "2025-10-26T10:02:36.595558",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1342,17 +1323,32 @@
   },
   {
     "licitacao_id": "PT-2024-109",
-    "data_analise": "2025-10-26T06:02:18.350882",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
+    "data_analise": "2025-10-26T10:02:36.595591",
+    "score_geral": 100.0,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 6112.8% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 173957.580869861,
+          "preco_mercado": 2800.0,
+          "diferenca_percentual": 6112.770745352179
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados"
+    ],
+    "confiabilidade": 20.0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-110",
-    "data_analise": "2025-10-26T06:02:18.350891",
+    "data_analise": "2025-10-26T10:02:36.595610",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1362,7 +1358,7 @@
   },
   {
     "licitacao_id": "PT-2024-111",
-    "data_analise": "2025-10-26T06:02:18.350902",
+    "data_analise": "2025-10-26T10:02:36.595627",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1372,57 +1368,27 @@
   },
   {
     "licitacao_id": "PT-2024-112",
-    "data_analise": "2025-10-26T06:02:18.350914",
-    "score_geral": 100.0,
-    "nivel_risco": "Crítico",
-    "evidencias": [
-      {
-        "tipo": "preco_excessivo",
-        "descricao": "Preço 274.8% acima do mercado",
-        "score": 100,
-        "detalhes": {
-          "preco_proposto": 4497.395594701078,
-          "preco_mercado": 1200.0,
-          "diferenca_percentual": 274.78296622508987
-        }
-      }
-    ],
-    "recomendacoes": [
-      "URGENTE: Investigação imediata recomendada",
-      "Solicitar auditoria externa",
-      "Verificar preços de mercado atualizados"
-    ],
-    "confiabilidade": 20.0,
+    "data_analise": "2025-10-26T10:02:36.595642",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-113",
-    "data_analise": "2025-10-26T06:02:18.350927",
-    "score_geral": 100.0,
-    "nivel_risco": "Crítico",
-    "evidencias": [
-      {
-        "tipo": "preco_excessivo",
-        "descricao": "Preço 258.7% acima do mercado",
-        "score": 100,
-        "detalhes": {
-          "preco_proposto": 4304.3243648602165,
-          "preco_mercado": 1200.0,
-          "diferenca_percentual": 258.6936970716847
-        }
-      }
-    ],
-    "recomendacoes": [
-      "URGENTE: Investigação imediata recomendada",
-      "Solicitar auditoria externa",
-      "Verificar preços de mercado atualizados"
-    ],
-    "confiabilidade": 20.0,
+    "data_analise": "2025-10-26T10:02:36.595659",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-114",
-    "data_analise": "2025-10-26T06:02:18.350939",
+    "data_analise": "2025-10-26T10:02:36.595674",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1432,7 +1398,7 @@
   },
   {
     "licitacao_id": "PT-2024-115",
-    "data_analise": "2025-10-26T06:02:18.350947",
+    "data_analise": "2025-10-26T10:02:36.595696",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1442,57 +1408,27 @@
   },
   {
     "licitacao_id": "PT-2024-116",
-    "data_analise": "2025-10-26T06:02:18.350958",
-    "score_geral": 100.0,
-    "nivel_risco": "Crítico",
-    "evidencias": [
-      {
-        "tipo": "preco_excessivo",
-        "descricao": "Preço 266.0% acima do mercado",
-        "score": 100,
-        "detalhes": {
-          "preco_proposto": 4391.845736105182,
-          "preco_mercado": 1200.0,
-          "diferenca_percentual": 265.98714467543186
-        }
-      }
-    ],
-    "recomendacoes": [
-      "URGENTE: Investigação imediata recomendada",
-      "Solicitar auditoria externa",
-      "Verificar preços de mercado atualizados"
-    ],
-    "confiabilidade": 20.0,
+    "data_analise": "2025-10-26T10:02:36.595712",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-117",
-    "data_analise": "2025-10-26T06:02:18.350969",
-    "score_geral": 100.0,
-    "nivel_risco": "Crítico",
-    "evidencias": [
-      {
-        "tipo": "preco_excessivo",
-        "descricao": "Preço 6403.0% acima do mercado",
-        "score": 100,
-        "detalhes": {
-          "preco_proposto": 182083.49281210007,
-          "preco_mercado": 2800.0,
-          "diferenca_percentual": 6402.981886146431
-        }
-      }
-    ],
-    "recomendacoes": [
-      "URGENTE: Investigação imediata recomendada",
-      "Solicitar auditoria externa",
-      "Verificar preços de mercado atualizados"
-    ],
-    "confiabilidade": 20.0,
+    "data_analise": "2025-10-26T10:02:36.595731",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-118",
-    "data_analise": "2025-10-26T06:02:18.350980",
+    "data_analise": "2025-10-26T10:02:36.595746",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1502,7 +1438,7 @@
   },
   {
     "licitacao_id": "PT-2024-119",
-    "data_analise": "2025-10-26T06:02:18.350989",
+    "data_analise": "2025-10-26T10:02:36.595762",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1512,28 +1448,18 @@
   },
   {
     "licitacao_id": "PT-2024-120",
-    "data_analise": "2025-10-26T06:02:18.350997",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-121",
-    "data_analise": "2025-10-26T06:02:18.351008",
+    "data_analise": "2025-10-26T10:02:36.595786",
     "score_geral": 100.0,
     "nivel_risco": "Crítico",
     "evidencias": [
       {
         "tipo": "preco_excessivo",
-        "descricao": "Preço 6165.6% acima do mercado",
+        "descricao": "Preço 273.8% acima do mercado",
         "score": 100,
         "detalhes": {
-          "preco_proposto": 175437.78980705765,
-          "preco_mercado": 2800.0,
-          "diferenca_percentual": 6165.635350252059
+          "preco_proposto": 4485.369158101221,
+          "preco_mercado": 1200.0,
+          "diferenca_percentual": 273.78076317510175
         }
       }
     ],
@@ -1546,8 +1472,18 @@
     "analista_responsavel": "Sistema IA"
   },
   {
+    "licitacao_id": "PT-2024-121",
+    "data_analise": "2025-10-26T10:02:36.595802",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
     "licitacao_id": "PT-2024-122",
-    "data_analise": "2025-10-26T06:02:18.351021",
+    "data_analise": "2025-10-26T10:02:36.595818",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1557,7 +1493,7 @@
   },
   {
     "licitacao_id": "PT-2024-123",
-    "data_analise": "2025-10-26T06:02:18.351032",
+    "data_analise": "2025-10-26T10:02:36.595839",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1567,78 +1503,18 @@
   },
   {
     "licitacao_id": "PT-2024-124",
-    "data_analise": "2025-10-26T06:02:18.351041",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-125",
-    "data_analise": "2025-10-26T06:02:18.351053",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-126",
-    "data_analise": "2025-10-26T06:02:18.351064",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-127",
-    "data_analise": "2025-10-26T06:02:18.351075",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-128",
-    "data_analise": "2025-10-26T06:02:18.351085",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-129",
-    "data_analise": "2025-10-26T06:02:18.351094",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-130",
-    "data_analise": "2025-10-26T06:02:18.351108",
+    "data_analise": "2025-10-26T10:02:36.595861",
     "score_geral": 100.0,
     "nivel_risco": "Crítico",
     "evidencias": [
       {
         "tipo": "preco_excessivo",
-        "descricao": "Preço 270.9% acima do mercado",
+        "descricao": "Preço 6558.5% acima do mercado",
         "score": 100,
         "detalhes": {
-          "preco_proposto": 4450.400361906265,
-          "preco_mercado": 1200.0,
-          "diferenca_percentual": 270.86669682552207
+          "preco_proposto": 186438.2612347004,
+          "preco_mercado": 2800.0,
+          "diferenca_percentual": 6558.509329810729
         }
       }
     ],
@@ -1651,8 +1527,83 @@
     "analista_responsavel": "Sistema IA"
   },
   {
+    "licitacao_id": "PT-2024-125",
+    "data_analise": "2025-10-26T10:02:36.595885",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
+    "licitacao_id": "PT-2024-126",
+    "data_analise": "2025-10-26T10:02:36.595962",
+    "score_geral": 100.0,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 281.9% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 4582.732064265281,
+          "preco_mercado": 1200.0,
+          "diferenca_percentual": 281.8943386887734
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados"
+    ],
+    "confiabilidade": 20.0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
+    "licitacao_id": "PT-2024-127",
+    "data_analise": "2025-10-26T10:02:36.595989",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
+    "licitacao_id": "PT-2024-128",
+    "data_analise": "2025-10-26T10:02:36.596009",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
+    "licitacao_id": "PT-2024-129",
+    "data_analise": "2025-10-26T10:02:36.596024",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
+    "licitacao_id": "PT-2024-130",
+    "data_analise": "2025-10-26T10:02:36.596041",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
     "licitacao_id": "PT-2024-131",
-    "data_analise": "2025-10-26T06:02:18.351127",
+    "data_analise": "2025-10-26T10:02:36.596061",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1662,7 +1613,7 @@
   },
   {
     "licitacao_id": "PT-2024-132",
-    "data_analise": "2025-10-26T06:02:18.351137",
+    "data_analise": "2025-10-26T10:02:36.596082",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1672,18 +1623,18 @@
   },
   {
     "licitacao_id": "PT-2024-133",
-    "data_analise": "2025-10-26T06:02:18.351149",
+    "data_analise": "2025-10-26T10:02:36.596112",
     "score_geral": 100.0,
     "nivel_risco": "Crítico",
     "evidencias": [
       {
         "tipo": "preco_excessivo",
-        "descricao": "Preço 292.1% acima do mercado",
+        "descricao": "Preço 289.0% acima do mercado",
         "score": 100,
         "detalhes": {
-          "preco_proposto": 4705.270103245372,
+          "preco_proposto": 4668.237026563743,
           "preco_mercado": 1200.0,
-          "diferenca_percentual": 292.10584193711435
+          "diferenca_percentual": 289.01975221364523
         }
       }
     ],
@@ -1697,7 +1648,7 @@
   },
   {
     "licitacao_id": "PT-2024-134",
-    "data_analise": "2025-10-26T06:02:18.351157",
+    "data_analise": "2025-10-26T10:02:36.596129",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1707,7 +1658,7 @@
   },
   {
     "licitacao_id": "PT-2024-135",
-    "data_analise": "2025-10-26T06:02:18.351168",
+    "data_analise": "2025-10-26T10:02:36.596144",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1717,28 +1668,18 @@
   },
   {
     "licitacao_id": "PT-2024-136",
-    "data_analise": "2025-10-26T06:02:18.351181",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-137",
-    "data_analise": "2025-10-26T06:02:18.351195",
+    "data_analise": "2025-10-26T10:02:36.596165",
     "score_geral": 100.0,
     "nivel_risco": "Crítico",
     "evidencias": [
       {
         "tipo": "preco_excessivo",
-        "descricao": "Preço 261.5% acima do mercado",
+        "descricao": "Preço 6645.9% acima do mercado",
         "score": 100,
         "detalhes": {
-          "preco_proposto": 4337.531689532121,
-          "preco_mercado": 1200.0,
-          "diferenca_percentual": 261.46097412767676
+          "preco_proposto": 188885.26405059398,
+          "preco_mercado": 2800.0,
+          "diferenca_percentual": 6645.902287521214
         }
       }
     ],
@@ -1751,8 +1692,8 @@
     "analista_responsavel": "Sistema IA"
   },
   {
-    "licitacao_id": "PT-2024-138",
-    "data_analise": "2025-10-26T06:02:18.351203",
+    "licitacao_id": "PT-2024-137",
+    "data_analise": "2025-10-26T10:02:36.596180",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1761,8 +1702,33 @@
     "analista_responsavel": "Sistema IA"
   },
   {
+    "licitacao_id": "PT-2024-138",
+    "data_analise": "2025-10-26T10:02:36.596199",
+    "score_geral": 100.0,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 6201.5% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 176441.7244250955,
+          "preco_mercado": 2800.0,
+          "diferenca_percentual": 6201.490158039125
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados"
+    ],
+    "confiabilidade": 20.0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
     "licitacao_id": "PT-2024-139",
-    "data_analise": "2025-10-26T06:02:18.351212",
+    "data_analise": "2025-10-26T10:02:36.596215",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1772,7 +1738,7 @@
   },
   {
     "licitacao_id": "PT-2024-140",
-    "data_analise": "2025-10-26T06:02:18.351225",
+    "data_analise": "2025-10-26T10:02:36.596230",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1782,7 +1748,7 @@
   },
   {
     "licitacao_id": "PT-2024-141",
-    "data_analise": "2025-10-26T06:02:18.351233",
+    "data_analise": "2025-10-26T10:02:36.596250",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1792,7 +1758,7 @@
   },
   {
     "licitacao_id": "PT-2024-142",
-    "data_analise": "2025-10-26T06:02:18.351242",
+    "data_analise": "2025-10-26T10:02:36.596266",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1802,7 +1768,7 @@
   },
   {
     "licitacao_id": "PT-2024-143",
-    "data_analise": "2025-10-26T06:02:18.351252",
+    "data_analise": "2025-10-26T10:02:36.596281",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1812,18 +1778,28 @@
   },
   {
     "licitacao_id": "PT-2024-144",
-    "data_analise": "2025-10-26T06:02:18.351264",
+    "data_analise": "2025-10-26T10:02:36.596296",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
+    "licitacao_id": "PT-2024-145",
+    "data_analise": "2025-10-26T10:02:36.596317",
     "score_geral": 100.0,
     "nivel_risco": "Crítico",
     "evidencias": [
       {
         "tipo": "preco_excessivo",
-        "descricao": "Preço 6281.8% acima do mercado",
+        "descricao": "Preço 287.6% acima do mercado",
         "score": 100,
         "detalhes": {
-          "preco_proposto": 178689.83145205106,
-          "preco_mercado": 2800.0,
-          "diferenca_percentual": 6281.77969471611
+          "preco_proposto": 4651.60467526514,
+          "preco_mercado": 1200.0,
+          "diferenca_percentual": 287.6337229387617
         }
       }
     ],
@@ -1836,18 +1812,8 @@
     "analista_responsavel": "Sistema IA"
   },
   {
-    "licitacao_id": "PT-2024-145",
-    "data_analise": "2025-10-26T06:02:18.351271",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
     "licitacao_id": "PT-2024-146",
-    "data_analise": "2025-10-26T06:02:18.351283",
+    "data_analise": "2025-10-26T10:02:36.596333",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1857,7 +1823,7 @@
   },
   {
     "licitacao_id": "PT-2024-147",
-    "data_analise": "2025-10-26T06:02:18.351290",
+    "data_analise": "2025-10-26T10:02:36.596360",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1867,7 +1833,7 @@
   },
   {
     "licitacao_id": "PT-2024-148",
-    "data_analise": "2025-10-26T06:02:18.351301",
+    "data_analise": "2025-10-26T10:02:36.596380",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1877,7 +1843,7 @@
   },
   {
     "licitacao_id": "PT-2024-149",
-    "data_analise": "2025-10-26T06:02:18.351310",
+    "data_analise": "2025-10-26T10:02:36.596399",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1887,7 +1853,7 @@
   },
   {
     "licitacao_id": "PT-2024-150",
-    "data_analise": "2025-10-26T06:02:18.351322",
+    "data_analise": "2025-10-26T10:02:36.596425",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1897,7 +1863,7 @@
   },
   {
     "licitacao_id": "PT-2024-151",
-    "data_analise": "2025-10-26T06:02:18.351330",
+    "data_analise": "2025-10-26T10:02:36.596444",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1907,7 +1873,7 @@
   },
   {
     "licitacao_id": "PT-2024-152",
-    "data_analise": "2025-10-26T06:02:18.351338",
+    "data_analise": "2025-10-26T10:02:36.596473",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1917,28 +1883,18 @@
   },
   {
     "licitacao_id": "PT-2024-153",
-    "data_analise": "2025-10-26T06:02:18.351349",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-154",
-    "data_analise": "2025-10-26T06:02:18.351364",
+    "data_analise": "2025-10-26T10:02:36.596504",
     "score_geral": 100.0,
     "nivel_risco": "Crítico",
     "evidencias": [
       {
         "tipo": "preco_excessivo",
-        "descricao": "Preço 288.7% acima do mercado",
+        "descricao": "Preço 6491.4% acima do mercado",
         "score": 100,
         "detalhes": {
-          "preco_proposto": 4664.830456089758,
-          "preco_mercado": 1200.0,
-          "diferenca_percentual": 288.73587134081316
+          "preco_proposto": 184560.56212938245,
+          "preco_mercado": 2800.0,
+          "diferenca_percentual": 6491.448647477945
         }
       }
     ],
@@ -1951,8 +1907,8 @@
     "analista_responsavel": "Sistema IA"
   },
   {
-    "licitacao_id": "PT-2024-155",
-    "data_analise": "2025-10-26T06:02:18.351371",
+    "licitacao_id": "PT-2024-154",
+    "data_analise": "2025-10-26T10:02:36.596533",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1961,8 +1917,33 @@
     "analista_responsavel": "Sistema IA"
   },
   {
+    "licitacao_id": "PT-2024-155",
+    "data_analise": "2025-10-26T10:02:36.596561",
+    "score_geral": 100.0,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 6441.4% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 183160.3289256278,
+          "preco_mercado": 2800.0,
+          "diferenca_percentual": 6441.440318772422
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados"
+    ],
+    "confiabilidade": 20.0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
     "licitacao_id": "PT-2024-156",
-    "data_analise": "2025-10-26T06:02:18.351382",
+    "data_analise": "2025-10-26T10:02:36.596582",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1972,7 +1953,7 @@
   },
   {
     "licitacao_id": "PT-2024-157",
-    "data_analise": "2025-10-26T06:02:18.351392",
+    "data_analise": "2025-10-26T10:02:36.596609",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1982,7 +1963,7 @@
   },
   {
     "licitacao_id": "PT-2024-158",
-    "data_analise": "2025-10-26T06:02:18.351403",
+    "data_analise": "2025-10-26T10:02:36.596631",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -1992,17 +1973,32 @@
   },
   {
     "licitacao_id": "PT-2024-159",
-    "data_analise": "2025-10-26T06:02:18.351411",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
+    "data_analise": "2025-10-26T10:02:36.596662",
+    "score_geral": 100.0,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 275.5% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 4506.429610913244,
+          "preco_mercado": 1200.0,
+          "diferenca_percentual": 275.535800909437
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados"
+    ],
+    "confiabilidade": 20.0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-160",
-    "data_analise": "2025-10-26T06:02:18.351420",
+    "data_analise": "2025-10-26T10:02:36.596689",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2012,7 +2008,7 @@
   },
   {
     "licitacao_id": "PT-2024-161",
-    "data_analise": "2025-10-26T06:02:18.351428",
+    "data_analise": "2025-10-26T10:02:36.596709",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2022,7 +2018,7 @@
   },
   {
     "licitacao_id": "PT-2024-162",
-    "data_analise": "2025-10-26T06:02:18.351436",
+    "data_analise": "2025-10-26T10:02:36.596726",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2032,32 +2028,17 @@
   },
   {
     "licitacao_id": "PT-2024-163",
-    "data_analise": "2025-10-26T06:02:18.351458",
-    "score_geral": 100.0,
-    "nivel_risco": "Crítico",
-    "evidencias": [
-      {
-        "tipo": "preco_excessivo",
-        "descricao": "Preço 272.2% acima do mercado",
-        "score": 100,
-        "detalhes": {
-          "preco_proposto": 4466.350073056852,
-          "preco_mercado": 1200.0,
-          "diferenca_percentual": 272.19583942140434
-        }
-      }
-    ],
-    "recomendacoes": [
-      "URGENTE: Investigação imediata recomendada",
-      "Solicitar auditoria externa",
-      "Verificar preços de mercado atualizados"
-    ],
-    "confiabilidade": 20.0,
+    "data_analise": "2025-10-26T10:02:36.596742",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-164",
-    "data_analise": "2025-10-26T06:02:18.351471",
+    "data_analise": "2025-10-26T10:02:36.596761",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2067,27 +2048,57 @@
   },
   {
     "licitacao_id": "PT-2024-165",
-    "data_analise": "2025-10-26T06:02:18.351483",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
+    "data_analise": "2025-10-26T10:02:36.596783",
+    "score_geral": 100.0,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 6232.6% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 177312.8204098409,
+          "preco_mercado": 2800.0,
+          "diferenca_percentual": 6232.60072892289
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados"
+    ],
+    "confiabilidade": 20.0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-166",
-    "data_analise": "2025-10-26T06:02:18.351494",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
+    "data_analise": "2025-10-26T10:02:36.596804",
+    "score_geral": 100.0,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 262.6% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 4351.0244287138,
+          "preco_mercado": 1200.0,
+          "diferenca_percentual": 262.58536905948336
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados"
+    ],
+    "confiabilidade": 20.0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-167",
-    "data_analise": "2025-10-26T06:02:18.351501",
+    "data_analise": "2025-10-26T10:02:36.596820",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2097,7 +2108,7 @@
   },
   {
     "licitacao_id": "PT-2024-168",
-    "data_analise": "2025-10-26T06:02:18.351513",
+    "data_analise": "2025-10-26T10:02:36.596835",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2107,7 +2118,7 @@
   },
   {
     "licitacao_id": "PT-2024-169",
-    "data_analise": "2025-10-26T06:02:18.351531",
+    "data_analise": "2025-10-26T10:02:36.596854",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2117,7 +2128,7 @@
   },
   {
     "licitacao_id": "PT-2024-170",
-    "data_analise": "2025-10-26T06:02:18.351539",
+    "data_analise": "2025-10-26T10:02:36.596868",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2127,7 +2138,7 @@
   },
   {
     "licitacao_id": "PT-2024-171",
-    "data_analise": "2025-10-26T06:02:18.351549",
+    "data_analise": "2025-10-26T10:02:36.596888",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2137,7 +2148,7 @@
   },
   {
     "licitacao_id": "PT-2024-172",
-    "data_analise": "2025-10-26T06:02:18.351557",
+    "data_analise": "2025-10-26T10:02:36.596929",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2147,7 +2158,7 @@
   },
   {
     "licitacao_id": "PT-2024-173",
-    "data_analise": "2025-10-26T06:02:18.351565",
+    "data_analise": "2025-10-26T10:02:36.596944",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2157,7 +2168,7 @@
   },
   {
     "licitacao_id": "PT-2024-174",
-    "data_analise": "2025-10-26T06:02:18.351578",
+    "data_analise": "2025-10-26T10:02:36.596960",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2167,7 +2178,7 @@
   },
   {
     "licitacao_id": "PT-2024-175",
-    "data_analise": "2025-10-26T06:02:18.351589",
+    "data_analise": "2025-10-26T10:02:36.596979",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2177,17 +2188,32 @@
   },
   {
     "licitacao_id": "PT-2024-176",
-    "data_analise": "2025-10-26T06:02:18.351598",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
+    "data_analise": "2025-10-26T10:02:36.597009",
+    "score_geral": 100.0,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 262.9% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 4354.923869491837,
+          "preco_mercado": 1200.0,
+          "diferenca_percentual": 262.910322457653
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados"
+    ],
+    "confiabilidade": 20.0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-177",
-    "data_analise": "2025-10-26T06:02:18.351608",
+    "data_analise": "2025-10-26T10:02:36.597031",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2197,7 +2223,7 @@
   },
   {
     "licitacao_id": "PT-2024-178",
-    "data_analise": "2025-10-26T06:02:18.351620",
+    "data_analise": "2025-10-26T10:02:36.597050",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2207,7 +2233,7 @@
   },
   {
     "licitacao_id": "PT-2024-179",
-    "data_analise": "2025-10-26T06:02:18.351628",
+    "data_analise": "2025-10-26T10:02:36.597077",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2217,7 +2243,7 @@
   },
   {
     "licitacao_id": "PT-2024-180",
-    "data_analise": "2025-10-26T06:02:18.351637",
+    "data_analise": "2025-10-26T10:02:36.597096",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2227,57 +2253,27 @@
   },
   {
     "licitacao_id": "PT-2024-181",
-    "data_analise": "2025-10-26T06:02:18.351652",
-    "score_geral": 100.0,
-    "nivel_risco": "Crítico",
-    "evidencias": [
-      {
-        "tipo": "preco_excessivo",
-        "descricao": "Preço 6016.1% acima do mercado",
-        "score": 100,
-        "detalhes": {
-          "preco_proposto": 171250.017670084,
-          "preco_mercado": 2800.0,
-          "diferenca_percentual": 6016.072059645857
-        }
-      }
-    ],
-    "recomendacoes": [
-      "URGENTE: Investigação imediata recomendada",
-      "Solicitar auditoria externa",
-      "Verificar preços de mercado atualizados"
-    ],
-    "confiabilidade": 20.0,
+    "data_analise": "2025-10-26T10:02:36.597116",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-182",
-    "data_analise": "2025-10-26T06:02:18.351665",
-    "score_geral": 100.0,
-    "nivel_risco": "Crítico",
-    "evidencias": [
-      {
-        "tipo": "preco_excessivo",
-        "descricao": "Preço 285.3% acima do mercado",
-        "score": 100,
-        "detalhes": {
-          "preco_proposto": 4623.953452153809,
-          "preco_mercado": 1200.0,
-          "diferenca_percentual": 285.3294543461507
-        }
-      }
-    ],
-    "recomendacoes": [
-      "URGENTE: Investigação imediata recomendada",
-      "Solicitar auditoria externa",
-      "Verificar preços de mercado atualizados"
-    ],
-    "confiabilidade": 20.0,
+    "data_analise": "2025-10-26T10:02:36.597140",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-183",
-    "data_analise": "2025-10-26T06:02:18.351679",
+    "data_analise": "2025-10-26T10:02:36.597161",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2287,32 +2283,17 @@
   },
   {
     "licitacao_id": "PT-2024-184",
-    "data_analise": "2025-10-26T06:02:18.351691",
-    "score_geral": 100.0,
-    "nivel_risco": "Crítico",
-    "evidencias": [
-      {
-        "tipo": "preco_excessivo",
-        "descricao": "Preço 6266.3% acima do mercado",
-        "score": 100,
-        "detalhes": {
-          "preco_proposto": 178256.34094953616,
-          "preco_mercado": 2800.0,
-          "diferenca_percentual": 6266.297891054863
-        }
-      }
-    ],
-    "recomendacoes": [
-      "URGENTE: Investigação imediata recomendada",
-      "Solicitar auditoria externa",
-      "Verificar preços de mercado atualizados"
-    ],
-    "confiabilidade": 20.0,
+    "data_analise": "2025-10-26T10:02:36.597180",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-185",
-    "data_analise": "2025-10-26T06:02:18.351701",
+    "data_analise": "2025-10-26T10:02:36.597207",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2322,7 +2303,7 @@
   },
   {
     "licitacao_id": "PT-2024-186",
-    "data_analise": "2025-10-26T06:02:18.351708",
+    "data_analise": "2025-10-26T10:02:36.597236",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2332,63 +2313,28 @@
   },
   {
     "licitacao_id": "PT-2024-187",
-    "data_analise": "2025-10-26T06:02:18.351719",
-    "score_geral": 100.0,
-    "nivel_risco": "Crítico",
-    "evidencias": [
-      {
-        "tipo": "preco_excessivo",
-        "descricao": "Preço 6581.2% acima do mercado",
-        "score": 100,
-        "detalhes": {
-          "preco_proposto": 187074.06535937908,
-          "preco_mercado": 2800.0,
-          "diferenca_percentual": 6581.216619977825
-        }
-      }
-    ],
-    "recomendacoes": [
-      "URGENTE: Investigação imediata recomendada",
-      "Solicitar auditoria externa",
-      "Verificar preços de mercado atualizados"
-    ],
-    "confiabilidade": 20.0,
+    "data_analise": "2025-10-26T10:02:36.597261",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-188",
-    "data_analise": "2025-10-26T06:02:18.351730",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-189",
-    "data_analise": "2025-10-26T06:02:18.351740",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
-    "analista_responsavel": "Sistema IA"
-  },
-  {
-    "licitacao_id": "PT-2024-190",
-    "data_analise": "2025-10-26T06:02:18.351753",
+    "data_analise": "2025-10-26T10:02:36.597295",
     "score_geral": 100.0,
     "nivel_risco": "Crítico",
     "evidencias": [
       {
         "tipo": "preco_excessivo",
-        "descricao": "Preço 6080.4% acima do mercado",
+        "descricao": "Preço 276.5% acima do mercado",
         "score": 100,
         "detalhes": {
-          "preco_proposto": 173050.12009486847,
-          "preco_mercado": 2800.0,
-          "diferenca_percentual": 6080.361431959588
+          "preco_proposto": 4518.340584119965,
+          "preco_mercado": 1200.0,
+          "diferenca_percentual": 276.5283820099971
         }
       }
     ],
@@ -2401,8 +2347,43 @@
     "analista_responsavel": "Sistema IA"
   },
   {
+    "licitacao_id": "PT-2024-189",
+    "data_analise": "2025-10-26T10:02:36.597327",
+    "score_geral": 100.0,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 264.9% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 4379.049701834342,
+          "preco_mercado": 1200.0,
+          "diferenca_percentual": 264.9208084861952
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados"
+    ],
+    "confiabilidade": 20.0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
+    "licitacao_id": "PT-2024-190",
+    "data_analise": "2025-10-26T10:02:36.597349",
+    "score_geral": 0,
+    "nivel_risco": "Baixo",
+    "evidencias": [],
+    "recomendacoes": [],
+    "confiabilidade": 0,
+    "analista_responsavel": "Sistema IA"
+  },
+  {
     "licitacao_id": "PT-2024-191",
-    "data_analise": "2025-10-26T06:02:18.351765",
+    "data_analise": "2025-10-26T10:02:36.597378",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2412,7 +2393,7 @@
   },
   {
     "licitacao_id": "PT-2024-192",
-    "data_analise": "2025-10-26T06:02:18.351777",
+    "data_analise": "2025-10-26T10:02:36.597402",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2422,7 +2403,7 @@
   },
   {
     "licitacao_id": "PT-2024-193",
-    "data_analise": "2025-10-26T06:02:18.351784",
+    "data_analise": "2025-10-26T10:02:36.597432",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2432,7 +2413,7 @@
   },
   {
     "licitacao_id": "PT-2024-194",
-    "data_analise": "2025-10-26T06:02:18.351795",
+    "data_analise": "2025-10-26T10:02:36.597456",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2442,27 +2423,57 @@
   },
   {
     "licitacao_id": "PT-2024-195",
-    "data_analise": "2025-10-26T06:02:18.351804",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
+    "data_analise": "2025-10-26T10:02:36.597490",
+    "score_geral": 100.0,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 256.4% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 4276.80156613643,
+          "preco_mercado": 1200.0,
+          "diferenca_percentual": 256.4001305113691
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados"
+    ],
+    "confiabilidade": 20.0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-196",
-    "data_analise": "2025-10-26T06:02:18.351812",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
+    "data_analise": "2025-10-26T10:02:36.597518",
+    "score_geral": 100.0,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 256.4% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 4277.038067906313,
+          "preco_mercado": 1200.0,
+          "diferenca_percentual": 256.41983899219275
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados"
+    ],
+    "confiabilidade": 20.0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-197",
-    "data_analise": "2025-10-26T06:02:18.351822",
+    "data_analise": "2025-10-26T10:02:36.597539",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2472,7 +2483,7 @@
   },
   {
     "licitacao_id": "PT-2024-198",
-    "data_analise": "2025-10-26T06:02:18.351835",
+    "data_analise": "2025-10-26T10:02:36.597559",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2482,17 +2493,32 @@
   },
   {
     "licitacao_id": "PT-2024-199",
-    "data_analise": "2025-10-26T06:02:18.351848",
-    "score_geral": 0,
-    "nivel_risco": "Baixo",
-    "evidencias": [],
-    "recomendacoes": [],
-    "confiabilidade": 0,
+    "data_analise": "2025-10-26T10:02:36.597591",
+    "score_geral": 100.0,
+    "nivel_risco": "Crítico",
+    "evidencias": [
+      {
+        "tipo": "preco_excessivo",
+        "descricao": "Preço 6547.6% acima do mercado",
+        "score": 100,
+        "detalhes": {
+          "preco_proposto": 186133.49125517454,
+          "preco_mercado": 2800.0,
+          "diferenca_percentual": 6547.624687684805
+        }
+      }
+    ],
+    "recomendacoes": [
+      "URGENTE: Investigação imediata recomendada",
+      "Solicitar auditoria externa",
+      "Verificar preços de mercado atualizados"
+    ],
+    "confiabilidade": 20.0,
     "analista_responsavel": "Sistema IA"
   },
   {
     "licitacao_id": "PT-2024-200",
-    "data_analise": "2025-10-26T06:02:18.351856",
+    "data_analise": "2025-10-26T10:02:36.597613",
     "score_geral": 0,
     "nivel_risco": "Baixo",
     "evidencias": [],
@@ -2502,7 +2528,7 @@
   },
   {
     "licitacao_id": "PT-2024-001",
-    "data_analise": "2025-10-26T06:02:18.351873",
+    "data_analise": "2025-10-26T10:02:36.597648",
     "score_geral": 85.0,
     "nivel_risco": "Crítico",
     "evidencias": [
@@ -2528,7 +2554,7 @@
   },
   {
     "licitacao_id": "PT-2024-002",
-    "data_analise": "2025-10-26T06:02:18.351889",
+    "data_analise": "2025-10-26T10:02:36.597686",
     "score_geral": 85.0,
     "nivel_risco": "Crítico",
     "evidencias": [
@@ -2554,7 +2580,7 @@
   },
   {
     "licitacao_id": "PT-2024-003",
-    "data_analise": "2025-10-26T06:02:18.351904",
+    "data_analise": "2025-10-26T10:02:36.597741",
     "score_geral": 85.0,
     "nivel_risco": "Crítico",
     "evidencias": [
@@ -2580,7 +2606,7 @@
   },
   {
     "licitacao_id": "PT-2024-004",
-    "data_analise": "2025-10-26T06:02:18.351917",
+    "data_analise": "2025-10-26T10:02:36.597780",
     "score_geral": 85.0,
     "nivel_risco": "Crítico",
     "evidencias": [
@@ -2606,7 +2632,7 @@
   },
   {
     "licitacao_id": "PT-2024-005",
-    "data_analise": "2025-10-26T06:02:18.351928",
+    "data_analise": "2025-10-26T10:02:36.597814",
     "score_geral": 85.0,
     "nivel_risco": "Crítico",
     "evidencias": [
@@ -2632,7 +2658,7 @@
   },
   {
     "licitacao_id": "PT-2024-006",
-    "data_analise": "2025-10-26T06:02:18.351943",
+    "data_analise": "2025-10-26T10:02:36.597854",
     "score_geral": 85.0,
     "nivel_risco": "Crítico",
     "evidencias": [
@@ -2658,7 +2684,7 @@
   },
   {
     "licitacao_id": "CN-2024-001",
-    "data_analise": "2025-10-26T06:02:18.351972",
+    "data_analise": "2025-10-26T10:02:36.597884",
     "score_geral": 85.0,
     "nivel_risco": "Crítico",
     "evidencias": [
@@ -2684,7 +2710,7 @@
   },
   {
     "licitacao_id": "CN-2024-002",
-    "data_analise": "2025-10-26T06:02:18.352008",
+    "data_analise": "2025-10-26T10:02:36.597939",
     "score_geral": 85.0,
     "nivel_risco": "Crítico",
     "evidencias": [
