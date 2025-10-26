@@ -1,0 +1,166 @@
+{
+  "casos_investigacao": [
+    {
+      "id": "LIC-2024-001",
+      "titulo": "Superfaturamento em Notebooks Educacionais",
+      "orgao": "Ministério da Educação",
+      "data_abertura": "2024-01-15",
+      "valor_estimado": 1800000.00,
+      "empresa_vencedora": "TechSolutions Brasil LTDA",
+      "cnpj": "12.345.678/0001-90",
+      "produto": "Notebooks Dell Inspiron 15 3000",
+      "quantidade": 150,
+      "preco_edital": 12000.00,
+      "preco_mercado": 4000.00,
+      "diferenca_percentual": 200.0,
+      "economia_potencial": 1200000.00,
+      "evidencias": [
+        "Preço 200% acima do mercado",
+        "Empresa vencedora tem 8 vitórias consecutivas em TI",
+        "Especificações técnicas genéricas",
+        "Prazo de entrega suspeito (20 dias)"
+      ],
+      "status": "Encaminhado ao TCU",
+      "nivel_risco": "Alto",
+      "envolvidos": {
+        "empresa": {
+          "nome": "TechSolutions Brasil LTDA",
+          "cnpj": "12.345.678/0001-90",
+          "socios": ["João Silva", "Maria Santos"],
+          "historico_vitorias": 8,
+          "faturamento_anual": 15000000.00
+        },
+        "aprovador": {
+          "nome": "Carlos Oliveira",
+          "cargo": "Secretário de Educação",
+          "orgao": "Ministério da Educação",
+          "historico_licitacoes": 12,
+          "tempo_cargo": "3 anos"
+        }
+      }
+    },
+    {
+      "id": "LIC-2024-002",
+      "titulo": "Cartel em Licitações de Merenda Escolar",
+      "orgao": "Prefeituras de São Paulo",
+      "data_abertura": "2024-01-10",
+      "valor_estimado": 1800000.00,
+      "empresa_vencedora": "Alimentar Brasil LTDA",
+      "cnpj": "98.765.432/0001-10",
+      "produto": "Merenda Escolar",
+      "quantidade": 15000,
+      "preco_edital": 120.00,
+      "preco_mercado": 48.00,
+      "diferenca_percentual": 150.0,
+      "economia_potencial": 1080000.00,
+      "evidencias": [
+        "3 empresas alternam vitórias",
+        "Preços sempre 150% acima do mercado",
+        "Padrão detectado em 8 municípios",
+        "Mesmo fornecedor de ingredientes"
+      ],
+      "status": "Investigação em andamento",
+      "nivel_risco": "Alto"
+    },
+    {
+      "id": "LIC-2024-003",
+      "titulo": "Superfaturamento em Tablets Educacionais",
+      "orgao": "Ministério da Educação",
+      "data_abertura": "2024-01-08",
+      "valor_estimado": 3200000.00,
+      "empresa_vencedora": "EduTech Inovação LTDA",
+      "cnpj": "11.222.333/0001-44",
+      "produto": "Tablets Educacionais",
+      "quantidade": 1000,
+      "preco_edital": 3200.00,
+      "preco_mercado": 1800.00,
+      "diferenca_percentual": 77.8,
+      "economia_potencial": 1500000.00,
+      "evidencias": [
+        "Preço 78% acima do mercado",
+        "Especificações genéricas",
+        "Empresa tem histórico de vitórias similares",
+        "Prazo de entrega muito curto"
+      ],
+      "status": "Análise técnica",
+      "nivel_risco": "Médio"
+    },
+    {
+      "id": "LIC-2024-004",
+      "titulo": "Licitação com Prazo Impossível",
+      "orgao": "Prefeitura de Belo Horizonte",
+      "data_abertura": "2024-01-05",
+      "valor_estimado": 2400000.00,
+      "empresa_vencedora": "AutoFleet Veículos LTDA",
+      "cnpj": "55.666.777/0001-88",
+      "produto": "Ambulâncias",
+      "quantidade": 20,
+      "preco_edital": 120000.00,
+      "preco_mercado": 90000.00,
+      "diferenca_percentual": 33.3,
+      "economia_potencial": 600000.00,
+      "evidencias": [
+        "Prazo de entrega impossível (15 dias)",
+        "Apenas 1 empresa participou",
+        "Especificações direcionadas",
+        "Histórico de licitações similares"
+      ],
+      "status": "Sob investigação",
+      "nivel_risco": "Alto"
+    },
+    {
+      "id": "LIC-2024-005",
+      "titulo": "Padrão de Vitórias Consecutivas",
+      "orgao": "Prefeituras de Minas Gerais",
+      "data_abertura": "2024-01-03",
+      "valor_estimado": 5600000.00,
+      "empresa_vencedora": "Construtora Regional LTDA",
+      "cnpj": "33.444.555/0001-99",
+      "produto": "Obras Públicas",
+      "quantidade": 1,
+      "preco_edital": 5600000.00,
+      "preco_mercado": 4400000.00,
+      "diferenca_percentual": 27.3,
+      "economia_potencial": 1200000.00,
+      "evidencias": [
+        "8 vitórias consecutivas em 3 municípios",
+        "Preços sempre 27% acima do orçamento",
+        "Mesmo padrão de especificações",
+        "Histórico de atrasos em entregas"
+      ],
+      "status": "Relatório enviado ao TCE-MG",
+      "nivel_risco": "Médio"
+    }
+  ],
+  "estatisticas_gerais": {
+    "total_licitacoes_analisadas": 127,
+    "casos_suspeitos": 43,
+    "economia_potencial_total": 12800000.00,
+    "taxa_suspeicao": 33.9,
+    "orgaos_mais_afetados": [
+      {
+        "orgao": "Ministério da Saúde",
+        "casos": 12,
+        "economia": 4200000.00
+      },
+      {
+        "orgao": "Ministério da Educação", 
+        "casos": 10,
+        "economia": 3800000.00
+      },
+      {
+        "orgao": "Prefeituras",
+        "casos": 15,
+        "economia": 2100000.00
+      }
+    ]
+  },
+  "tipos_cartel_detectados": [
+    "Same Winner Always",
+    "Price Bending", 
+    "Tailored Specifications",
+    "Last Minute Bidders",
+    "Rotating Winners",
+    "Bid Rigging"
+  ]
+}
