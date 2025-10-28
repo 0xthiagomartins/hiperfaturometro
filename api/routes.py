@@ -18,9 +18,10 @@ router = APIRouter()
 # Inicializar serviço de dados
 data_service = DataService()
 
+"""
 # Inicializar serviço PNCP
 pncp_service = PNCPCompleto()
-
+"""
 @router.get("/", response_model=APIResponse)
 async def root():
     """Endpoint raiz da API"""
@@ -139,7 +140,7 @@ async def health_check():
         }
     )
 
-
+"""
 @router.get("/pncp/analisar", response_model=APIResponse)
 async def analisar_licitacoes_pncp(
     dias_atras: int = Query(default=90, ge=1, le=365, description="Dias para voltar na busca")
@@ -183,3 +184,4 @@ async def analisar_licitacoes_pncp(
             status_code=500,
             detail=f"Erro ao analisar licitações: {str(e)}"
         )
+"""
