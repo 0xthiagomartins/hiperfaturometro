@@ -10,6 +10,7 @@ from .models import (
     BreakingNewsModel, CaseFilters, APIResponse, RiskLevel, PriorityLevel
 )
 from .data_service import DataService
+from .pncp_service import PNCPCompleto
 
 # Inicializar roteador
 router = APIRouter()
@@ -17,6 +18,10 @@ router = APIRouter()
 # Inicializar serviço de dados
 data_service = DataService()
 
+"""
+# Inicializar serviço PNCP
+pncp_service = PNCPCompleto()
+"""
 @router.get("/", response_model=APIResponse)
 async def root():
     """Endpoint raiz da API"""
@@ -134,3 +139,49 @@ async def health_check():
             "version": "1.0.0"
         }
     )
+
+"""
+@router.get("/pncp/analisar", response_model=APIResponse)
+async def analisar_licitacoes_pncp(
+    dias_atras: int = Query(default=90, ge=1, le=365, description="Dias para voltar na busca")
+):
+    """
+    Busca e analisa licitações do PNCP
+    
+    Retorna até 5 licitações de tecnologia com análise completa
+    """
+    try:
+        # Buscar licitações
+        licitacoes = pncp_service.buscar_contratacoes(dias_atras=dias_atras)
+        
+        if not licitacoes:
+            return APIResponse(
+                success=True,
+                message="Nenhuma licitação de tecnologia encontrada no período",
+                data={
+                    "licitacoes": [],
+                    "total": 0
+                }
+            )
+        
+        # Analisar cada licitação
+        licitacoes_analisadas = []
+        for idx, lic in enumerate(licitacoes, 1):
+            lic_analisada = pncp_service.analisar_licitacao_completa(lic, idx)
+            licitacoes_analisadas.append(lic_analisada)
+        
+        return APIResponse(
+            success=True,
+            message=f"{len(licitacoes_analisadas)} licitações analisadas com sucesso",
+            data={
+                "licitacoes": licitacoes_analisadas,
+                "total": len(licitacoes_analisadas)
+            }
+        )
+        
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Erro ao analisar licitações: {str(e)}"
+        )
+"""
