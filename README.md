@@ -7,26 +7,15 @@ Sistema de detecção de hiperfaturamento em licitações públicas usando intel
 ```
 backend/
 ├── api/                    # API FastAPI (comunicação com frontend)
-│   ├── main.py            # Aplicação FastAPI
-│   ├── models.py          # Modelos Pydantic
-│   ├── routes.py          # Endpoints da API
-│   └── data_service.py    # Serviço de dados
 ├── src/                   # Lógica de negócio
 │   ├── tracker/           # HiperfaturamentoTracker
-│   │   └── hiperfaturamento_tracker.py
 │   ├── models/            # Modelos de dados
-│   │   ├── licitacao.py
-│   │   └── analise.py
 │   ├── services/          # Serviços
-│   │   ├── licitacao_collector.py
-│   │   └── hiperfaturamento_analyzer.py
 │   └── utils/             # Utilitários
 ├── data/                  # Dados processados
 │   ├── licitacoes.json
 │   ├── analises.json
 │   └── casos_processados.json
-├── tests/                 # Testes unitários
-│   └── tracker/
 ├── main.py               # Ponto de entrada da API
 ├── run_tracker.py        # Script para executar o tracker
 └── requirements.txt      # Dependências
@@ -119,24 +108,6 @@ O tracker irá:
 - **60-80**: Alto risco
 - **80-100**: Crítico
 
-## 🧪 Testes
-
-### **Executar Todos os Testes:**
-```bash
-pytest
-```
-
-### **Executar com Coverage:**
-```bash
-pytest --cov=src
-```
-
-### **Executar Testes Específicos:**
-```bash
-pytest tests/tracker/test_hiperfaturamento_tracker.py
-pytest tests/tracker/test_hiperfaturamento_analyzer.py
-```
-
 ## 📊 Dados Processados
 
 ### **Arquivos Gerados:**
@@ -203,14 +174,6 @@ Níveis de log:
 - **INFO**: Operações normais
 - **WARNING**: Situações suspeitas
 - **ERROR**: Erros de processamento
-
-## 🤝 Contribuição
-
-1. Fork o projeto
-2. Crie uma branch para sua feature
-3. Implemente testes
-4. Execute `pytest`
-5. Abra um Pull Request
 
 ## 📄 Licença
 
